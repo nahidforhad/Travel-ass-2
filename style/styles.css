@@ -21,6 +21,10 @@ i {
     font-size: 40px;
     font-weight: 800;
 }
+hr{
+    margin-top: 30px;
+    width: 872px;
+}
 /*Styles for Nav*/
 .nav-title{
     margin-left: 5px;
@@ -142,6 +146,9 @@ nav li{
         margin-left: 10px;
         width: 154px;
     }
+    .banner-text{
+        text-align: justify;
+    }
   }
   /*style for Popular Tours in Main section*/
   .main-header{
@@ -172,6 +179,7 @@ nav li{
  .mainh{
     margin-top: 0px;
     padding: 0px;
+    text-align: justify;
  }
  .main-header-img{
     margin-top: 20px;
@@ -184,6 +192,9 @@ nav li{
     }
     .main-header-img{
         margin-top: 50px;
+    }
+    .mainh{
+        text-align: justify;
     }
 
  }
@@ -271,6 +282,16 @@ nav li{
     display: flex;
     justify-content:center;
 }
+.cardtitle{
+    color: #030331;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
 .card{
     margin-left: 30px;
     width: 573px;
@@ -295,5 +316,110 @@ nav li{
         width: 350px;
         padding-left: 10px 10px;
         text-align: justify;
+    }
+}
+/*Styles for form*/
+.footer{
+    margin-top: 100px;
+    display: flex;
+   gap: 50px;
+}
+.footer-form{
+    border-radius: 16px;
+    border: 3px dotted #FF5400;;
+    width: 474px;
+    height: 400px;
+    padding-left: 30px;
+}
+.fot-img{
+    position: relative;
+    height: 422px;
+}
+.fot-img img{
+    width: 100%;
+}
+.special-box{
+    position: absolute;
+    top: 60%; 
+    left: 70%;
+    width: 184px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFF;
+    font-size: 18px
+}
+form{
+    text-align: center;
+}
+form input{
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+}
+#btn{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+}
+@media screen and (max-width:600px){
+    .footer{
+        flex-direction: column;
+    }
+    .footer-form{
+        display: block;
+        justify-content: center;
+        margin-left: 10%;
+        width: 380px;
+    }
+    .special-box{
+        top: 38%; 
+        left: 55%;
+    }
+}
+/*style for footer*/
+.real-footer{
+    margin-top: 80px;
+    height: 502px;
+    background-color: rgb(255, 230, 251);
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.sec{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+.fot-text{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.social{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.bye{
+    margin-top: 60px;
+    text-align: center;
+    color: #131318;
+}
+@media screen and (max-width:600px){
+    .fot-text{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
