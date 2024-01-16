@@ -145,15 +145,14 @@ nav li{
   }
   /*style for Popular Tours in Main section*/
   .main-header{
-    margin-top: 60px;
+    margin-top: 80px;
     height: 550px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+
   }
   .details{
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
  .title{
     color: #131318;
@@ -170,3 +169,88 @@ nav li{
     font-size: 16px;
     font-weight: 400;
  }
+ .mainh{
+    margin-top: 0px;
+    padding: 0px;
+ }
+ .main-header-img{
+    margin-top: 20px;
+ }
+ @media screen and (max-width:600px){
+    .main-header{
+        padding: 20px;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .main-header-img{
+        margin-top: 50px;
+    }
+
+ }
+ /*Styles for destination*/
+ .main-body{
+    margin-top: 80px;
+ }
+ 
+ .main-description{
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;
+ }
+ .images1{
+    display: flex;
+    gap: 10px;
+ }
+ .images2{
+    margin-top: 12px;
+    display: flex;
+    gap: 15px;
+ }
+ .images3{
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+ }
+ .image-container {
+   position: relative;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: none; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .main-body{
+        margin-top: 650px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    .images1{
+        flex-direction: column;
+    }
+    .images2{
+        flex-direction: column;
+    }
+    .images3{
+        flex-direction: column;
+    }
+    .image-container img {
+        height: 240px;
+      }
+   
+}
