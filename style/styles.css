@@ -70,8 +70,9 @@ nav li{
     }
     #special{
         display: block;
-        width: 26.5px;
-        height: 20.5px;
+        font-size: 24px;
+        text-align: center;
+        border: none;
     }
     #special:hover{
         background-color: darkgray;
@@ -469,5 +470,9 @@ form input{
     .fot-text{
         padding-left: 30px;
         padding-right: 30px;
+    }
+    hr{
+        margin-top: 30px;
+        width: 300px;
     }
 }
